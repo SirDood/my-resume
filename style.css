@@ -1,0 +1,76 @@
+body {
+    width: 1386px;
+    height: 1960.2px;
+    margin: 0 auto;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17.7pt;
+
+    /* border: 3px solid black; */
+}
+
+h2 {
+    font-size: 32pt;
+    margin-bottom: 0.15em;
+    /* border: 1px solid black; */
+}
+
+td {
+    vertical-align: top;
+}
+
+#side-section {
+    width: 37%;
+    height: inherit;
+    margin: 0;
+    display: inline-block;
+
+    background-color: #056296;
+    /* border: 3px solid black; */
+}
+
+#main-section {
+    width: 63%;
+    height: inherit;
+    margin: 0;
+    display: inline-block;
+
+    background-color: pink;
+    /* border: 3px solid black; */
+}
+
+#side-section-content {
+    margin: 1.5em;
+    color: #fffffa;
+
+    /* border: 1px solid black; */
+}
+
+.side-section-content-container {
+    margin-top: 3em;
+    /* border: 1px solid black; */
+}
+
+#side-section-name h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 57pt;
+}
+
+#side-section-content hr {
+    border: 5px solid #fffffa;
+}
+
+#side-section-contacts td {
+    padding: 0.4em 0.2em;
+    display: table-cell;
+    vertical-align: top;
+}
+
+#side-section-contacts .contact-images {
+    width: 100%;
+}
+
+#side-section-skills td {
+    padding: 0.2em 0.5em;
+}
