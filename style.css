@@ -3,15 +3,25 @@ body {
     height: 1960.2px;
     margin: 0 auto;
 
+    display: flex;
+
     font-family: 'Open Sans', sans-serif;
     font-size: 17.7pt;
 
-    /* border: 3px solid black; */
+    /* border: 1px solid black; */
+}
+
+h1 {
+    margin: 0;
+    padding-bottom: 0.8em;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 57pt;
 }
 
 h2 {
     font-size: 32pt;
-    margin-bottom: 0.15em;
+    margin: 0.15em 0;
     /* border: 1px solid black; */
 }
 
@@ -19,11 +29,17 @@ td {
     vertical-align: top;
 }
 
+a {
+    color:#fffffa;
+    text-decoration: none;
+}
+
 #side-section {
     width: 37%;
     height: inherit;
     margin: 0;
-    display: inline-block;
+
+    display: flex;
 
     background-color: #056296;
     /* border: 3px solid black; */
@@ -33,41 +49,39 @@ td {
     width: 63%;
     height: inherit;
     margin: 0;
-    display: inline-block;
 
-    background-color: pink;
+    background-color: #fffffa;
     /* border: 3px solid black; */
 }
 
 #side-section-content {
     margin: 1.5em;
+    padding: 2em 0 8em 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
     color: #fffffa;
 
     /* border: 1px solid black; */
 }
 
-.side-section-content-container {
-    margin-top: 3em;
-    /* border: 1px solid black; */
-}
-
-#side-section-name h1 {
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 57pt;
-}
-
 #side-section-content hr {
+    margin-bottom: 0;
     border: 5px solid #fffffa;
 }
 
 #side-section-contacts td {
-    padding: 0.4em 0.2em;
-    display: table-cell;
-    vertical-align: top;
+    padding: 0.3em 0.2em;
+    vertical-align: middle;
 }
 
 #side-section-contacts .contact-images {
+    vertical-align: top;
+}
+
+#side-section-contacts .contact-images > img {
     width: 100%;
 }
 
