@@ -7,22 +7,38 @@ body {
 
     font-family: 'Open Sans', sans-serif;
     font-size: 17.7pt;
-
-    /* border: 1px solid black; */
 }
 
 h1 {
     margin: 0;
-    padding-bottom: 0.8em;
+    padding-bottom: 0.7em;
     text-align: center;
     text-transform: uppercase;
-    font-size: 57pt;
+    font-size: 55pt;
 }
 
 h2 {
-    font-size: 32pt;
+    font-size: 31pt;
     margin: 0.15em 0;
-    /* border: 1px solid black; */
+}
+
+h3 {
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
+    font-size: 1.1em;
+    text-decoration: underline;
+    text-align: left;
+}
+
+h4 {
+    margin-top: 0.5em;
+    margin-bottom: 0.1em;
+    font-size: 17.7pt;
+    text-align: left; 
+}
+
+table {
+    width: 100%;
 }
 
 td {
@@ -42,29 +58,16 @@ a {
     display: flex;
 
     background-color: #056296;
-    /* border: 3px solid black; */
-}
-
-#main-section {
-    width: 63%;
-    height: inherit;
-    margin: 0;
-
-    background-color: #fffffa;
-    /* border: 3px solid black; */
 }
 
 #side-section-content {
     margin: 1.5em;
-    padding: 2em 0 8em 0;
 
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
 
     color: #fffffa;
-
-    /* border: 1px solid black; */
 }
 
 #side-section-content hr {
@@ -87,4 +90,83 @@ a {
 
 #side-section-skills td {
     padding: 0.2em 0.5em;
+}
+
+#side-section-skills tr > td:nth-of-type(2) {
+    text-align: right;
+}
+
+#main-section {
+    width: 63%;
+    height: inherit;
+    margin: 0;
+
+    display: flex;
+
+    background-color: #fffffa;
+}
+
+#main-section-content {
+    width: 100%;
+    margin: 1em;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+    color: #056296;
+}
+
+#main-section-content hr {
+    margin-top: 0.1em;
+    margin-bottom: 0;
+    border: 5px solid #056296;
+}
+
+#main-section-content table {
+    width: 100%;
+    margin-top: 0.8em;
+
+    border: 0;
+    border-spacing: 0px;
+}
+
+#main-section-content td > ul {
+    margin: 0;
+    padding: 0em 1.25em;
+}
+
+#main-section-content td > ul > li {
+    margin: 0.2em 0;
+}
+
+.main-section-content-containers {
+    width: 100%;
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+
+    color: #056296; 
+}
+
+.main-section-timeline {
+    margin: 0.1em 0;
+    font-weight: 400;
+    text-align: right;
+}
+
+.main-section-description {
+    font-style: italic;
+}
+
+.main-section-content-containers:nth-of-type(3) ul {
+    margin-bottom: 0;
+    
+}
+
+.main-section-content-containers:nth-of-type(4) ul {
+    margin-bottom: 0;
+    
 }

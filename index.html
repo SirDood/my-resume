@@ -14,24 +14,25 @@
 </head>
 
 <body>
+    <!-- Side section (left side) -->
     <section id="side-section">
         <main id="side-section-content">
             <!-- Name -->
-            <div id="side-section-name">
+            <div class="side-section-content-containers">
                 <h1>Izzat Zainir</h1>
                 <hr>
             </div>
             <!-- About me -->
-            <summary>
+            <summary class="side-section-content-containers">
                 <h2>About Me</h2>
                 Curious and quick-learning computer science student looking to gain full stack developing experience as
                 an intern at Tinkerve. Expected to graduate in 2023. Aiming to become a world-class full stack developer
                 that satisfies clients and users alike and contributes to open-source projects.
             </summary>
             <!-- Contact -->
-            <nav>
+            <nav class="side-section-content-containers">
                 <h2>Contact</h2>
-                <table id="side-section-contacts" border="0" width="100%">
+                <table id="side-section-contacts">
                     <tbody>
                         <colgroup>
                             <col span="1" style="width: 10%;">
@@ -48,22 +49,25 @@
                             <td>+60 12-931 9767</td>
                         </tr>
                         <tr>
-                            <td class="contact-images"><img src="img/icon_linkedin.png"
-                                    alt="An icon of the LinkedIn logo."></td>
+                            <td class="contact-images"><img src="img/icon_linkedin.png" alt="An icon of the LinkedIn logo."></td>
                             <td><a href="https://linkedin.com/in/izzat-zainir" title="My LinkedIn profile">linkedin.com/in/izzat-zainir</a></td>
                         </tr>
                         <tr>
                             <td class="contact-images"><img src="img/icon_github.png" alt="An icon of the GitHub logo.">
                             </td>
-                            <td><a href="https://github.com/izzatzainir01" title="My student GitHub profile">github.com/izzatzainir01</a><br><a href="https://github.com/SirDood" title="My personal GitHub profile">github.com/SirDood</a></td>
+                            <td>
+                                <a href="https://github.com/izzatzainir01" title="My student GitHub profile">github.com/izzatzainir01</a>
+                                <br>
+                                <a href="https://github.com/SirDood" title="My personal GitHub profile">github.com/SirDood</a></td>
                         </tr>
                     </tbody>
                 </table>
             </nav>
+
             <!-- Skills -->
-            <div id="side-section-skills">
+            <div id="side-section-skills" class="side-section-content-containers">
                 <h2>Skills</h2>
-                <table border="0" width="100%">
+                <table>
                     <colgroup>
                         <col span="1" style="width: 60%;">
                         <col span="1" align="right" style="width: 40%;">
@@ -76,15 +80,15 @@
                     <tbody>
                         <tr>
                             <td>English</td>
-                            <td align="right">(Proficient)</td>
+                            <td>(Proficient)</td>
                         </tr>
                         <tr>
                             <td>Bahasa Malaysia</td>
-                            <td align="right">(Native)</td>
+                            <td>(Native)</td>
                         </tr>
                     </tbody>
                 </table>
-                <table border="0" width="100%" style="margin-top: 0.4em;">
+                <table style="margin-top: 0.4em;">
                     <colgroup>
                         <col span="1" style="width: 60%;">
                         <col span="1" align="right" style="width: 40%;">
@@ -97,39 +101,223 @@
                     <tbody>
                         <tr>
                             <td>Python</td>
-                            <td align="right">(Intermediate)</td>
+                            <td>(Intermediate)</td>
                         </tr>
                         <tr>
                             <td>Java</td>
-                            <td align="right">(Novice)</td>
+                            <td>(Novice)</td>
                         </tr>
                         <tr>
                             <td>GUI with Java Swing/AWT</td>
-                            <td align="right">(Novice)</td>
+                            <td>(Novice)</td>
                         </tr>
                         <tr>
                             <td>C</td>
-                            <td align="right">(Novice)</td>
+                            <td>(Novice)</td>
                         </tr>
                         <tr>
                             <td>MySQL</td>
-                            <td align="right">(Novice)</td>
+                            <td>(Novice)</td>
                         </tr>
                         <tr>
                             <td>Git/Github</td>
-                            <td align="right">(Intermediate)</td>
+                            <td>(Intermediate)</td>
                         </tr>
-                            <td>Linux</td>
-                            <td align="right">(Novice)</td>
+                        <td>Linux</td>
+                        <td>(Novice)</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
         </main>
-    </section
-    ><section id="main-section">
+    </section>
+    
+    <!-- Main section (right side) -->
+    <section id="main-section">
         <main id="main-section-content">
+            <!-- Education -->
+            <div class="main-section-content-containers">
+                <header>
+                    <h2>Education</h2>
+                    <hr>
+                </header>
+                <summary>
+                    <table>
+                        <colgroup>
+                            <col span="1" style="width: 25%;">
+                            <col span="1" style="width: 25%;">
+                            <col span="1" style="width: 25%;">
+                            <col span="1" style="width: 25%;">
+                        </colgroup>
+                        <tbody>
+                            <tr>
+                                <td colspan="3"><h3>University of Nottingham Malaysia Campus</h3></td>
+                                <td class="main-section-timeline">(2020 - present)</td>
+                            </tr>
+                            <tr>
+                                <td colspan="3" class="main-section-description">BSc (Hons) Computer Science with Artificial Intelligence</td>
+                            </tr>
+                            <tr>
+                                <td colspan="4"><h4>Relevant Modules:</h4></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <ul>
+                                        <li>Databases and Interfaces</li>
+                                        <li>Programming and Algorithms</li>
+                                        <li>Programming Paradigms</li>
+                                        <li>Operating Systems and Concurrency</li>
+                                        <li>Software Engineering</li>
+                                    </ul>
+                                </td>
+                                <td colspan="2">
+                                    <ul>
+                                        <li>Developing Maintainable Software</li>
+                                        <li>Software Engineering Group Project</li>
+                                        <li>Introduction to Human Computer Interaction</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table>
+                        <colgroup>
+                            <col span="1" style="width: 25%;">
+                            <col span="1" style="width: 25%;">
+                            <col span="1" style="width: 25%;">
+                            <col span="1" style="width: 25%;">
+                        </colgroup>
+                        <tbody>
+                            <tr>
+                                <td colspan="3"><h3>Udemy</h3></td>
+                                <td class="main-section-timeline">(2020)</td>
+                            </tr>
+                            <tr>
+                                <td colspan="3" class="main-section-description">Complete Python Developer in 2020:<br>Zero to Mastery by Andrei Neagoie</td>
+                            </tr>
+                            <tr>
+                                <td colspan="4"><h4>Projects:</h4></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <ul>
+                                        <li>Image Processing</li>
+                                        <li>PDF Manipulation</li>
+                                        <li>Email Management with Python</li>
+                                        <li>Password Checker</li>
+                                    </ul>
+                                </td>
+                                <td colspan="2">
+                                    <ul>
+                                        <li>Web Scraping</li>
+                                        <li>Web Development with Flask</li>
+                                        <li>Test Automation with Selenium</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table>
+                        <colgroup>
+                            <col span="1" style="width: 25%;">
+                            <col span="1" style="width: 25%;">
+                            <col span="1" style="width: 25%;">
+                            <col span="1" style="width: 25%;">
+                        </colgroup>
+                        <tbody>
+                            <tr>
+                                <td colspan="3"><h3>Sunway College KL</h3></td>
+                                <td class="main-section-timeline">(2019)</td>
+                            </tr>
+                            <tr>
+                                <td colspan="3" class="main-section-description">Australian Matriculation (AUSMAT)</td>
+                            </tr>
+                            <tr>
+                                <td colspan="4">ATAR 91.25</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table>
+                        <colgroup>
+                            <col span="1" style="width: 25%;">
+                            <col span="1" style="width: 25%;">
+                            <col span="1" style="width: 25%;">
+                            <col span="1" style="width: 25%;">
+                        </colgroup>
+                        <tbody>
+                            <tr>
+                                <td colspan="3"><h3>SMK Bukit Jelutong</h3></td>
+                                <td class="main-section-timeline">(2014 - 2018)</td>
+                            </tr>
+                            <tr>
+                                <td colspan="3" class="main-section-description">SPM</td>
+                            </tr>
+                            <tr>
+                                <td colspan="4">8A 1B</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </summary>
+            </div>
 
+            <!-- Work Experience -->
+            <div class="main-section-content-containers">
+                <header>
+                    <h2>Work Experience</h2>
+                    <hr>
+                </header>
+                <summary>
+                    <table>
+                        <colgroup>
+                            <col span="1" style="width: 50%;">
+                            <col span="1" style="width: 50%;">
+                        </colgroup>
+                        <tbody>
+                            <tr>
+                                <td colspan="3"><h3>Food Counter Attendant</h3></td>
+                                <td class="main-section-timeline">(2020)</td>
+                            </tr>
+                            <tr>
+                                <td colspan="3" class="main-section-description">Ice Shack</td>
+                            </tr>
+                            <tr>
+                                <td colspan="3" class="main-section-description">Full-time (Jan - Mar)</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </summary>
+            </div>
+
+            <!-- Personal Projects -->
+            <div class="main-section-content-containers">
+                <header>
+                    <h2>Personal Projects</h2>
+                    <hr>
+                </header>
+                <summary>
+                    <ul>
+                        <li>Implemented an auto-clicker in Python for gaming purposes.</li>
+                        <li>Created a Python script that scraped the web for information on Covid-19 cases.</li>
+                        <li>Created a Python script that downloaded images from a Google Drive folder, applied effects, and uploaded the images back to the Google Drive folder for automated batch image processing.</li>
+                        <li>Created a BASH script to automate the process of setting up my Linux Mint desktop settings and configurations.</li>
+                    </ul>
+                </summary>
+            </div>
+
+            <!-- Extracurricular Activities -->
+            <div class="main-section-content-containers">
+                <header>
+                    <h2>Extracurricular Activities</h2>
+                    <hr>
+                </header>
+                <summary>
+                    <ul>
+                        <li>Upcoming executive member in UNMC's Music Society for 2022 - 2023 academic year.</li>
+                        <li>Second Deputy Head of Prefects in 2018. Established friendly connections with 3 surrounding schools through an inter-school event.</li>
+                        <li>Marching trainer and commander on multiple occasions for uniformed-units activities from 2017 - 2018.</li>
+                    </ul>
+                </summary>
+            </div>
         </main>
     </section>
 </body>
